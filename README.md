@@ -7,5 +7,5 @@ To build a replica of the google-home page
  - responsive design
  - HTML/CSS 
 
-From The Odin Project's [curriculum](http://ww.theodinproject.com/web-development-101/html-css)
+From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)
 
