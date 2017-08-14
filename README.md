@@ -1,2 +1,11 @@
-# google-homepage
-odin pro
+# google-homepage project
+
+## purpose
+To build a replica of the google-home page
+
+## skills to demonstrate
+ - responsive design
+ - HTML/CSS 
+
+From The Odin Project's [curriculum](http://ww.theodinproject.com/web-development-101/html-css)
+
