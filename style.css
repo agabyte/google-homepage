@@ -10,7 +10,11 @@ ul{
   padding: 0;
   overflow: hidden;
 }
-li{ float: right; }
+li{ 
+  float: right; 
+  padding:2px;
+  margin:2px;
+}
 li a{
   display:block;
   color:gray;
@@ -21,7 +25,7 @@ li a{
   text-decoration:none;
 }
 li button{
-  margin: 0;
+  margin: 2px;
   padding:0;
   display:inline;
   background:#0266c8;
@@ -33,43 +37,49 @@ li a:hover{
   text-decoration:underline;
 }
 
-
 #content{
-  width: 340px;
-  margin-left: auto;
-  margin-right: auto;
+  width:555px;
   margin-top:5%;
   padding:100px;
 }
-.image{
- display:inline;
+#logo{
+  height:92px;
+  width:200px;
 }
-.search_buttons{
-  padding:20px;
+#search_buttons{
+  padding-top:25px;
+  width:630px;
+  text-align:center;
+}
+#logo,#content,#search_buttons,.container{
+  margin-left:auto;
+  margin-right:auto;
 }
 .apps{
   background-image: url('ssl.gstatic.com/gb/images/i1_1967ca6a.png');
-  background-size:528px 68px;
   background-position:132px 38px;
   width:30px; 
   height:30px;
-}
+  background-color:#a9a9a9;
+} /* the search box*/
 input[type=text]{
-  width: 500px;
+  width: 600px;
   padding:15px;
-  border:0.5px solid gray;
+  border:1px solid #a9a9a9;
   border-radius:2px;
-  /*box-shadow: 1px 1px 1px gray;*/
+  margin-top:29px;
 }
 input[type=text]:hover{
-  box-shadow: 1px 2px 1px gray;
-}
+  -moz-box-shadow:1px 1px 10px #ccc;
+  -webkit-box-shadow:1px 1px 10px #ccc;
+  box-shadow: 1px 5px 10px #ccc;
+}/* the search buttons*/
 input[type=submit]{
-  color:gray;
-  background:snow;
-  width:135px;
+  color:#797979;
+  background:#f2f2f2;
+  width:150px;
   margin:5px;
-  padding:7px 7px;
+  padding:10px 10px;
   font-family:"Helvetica", sans-serif;
   font-size:15px;
   font-weight:700;
@@ -81,5 +91,10 @@ input[type=submit]:hover{
  /*color:#0c0c0c;*/
   color:#161616;
   border-color:gray;
-  border-radius: 1px;
+  border-radius: 2px;
+  background:-webkit-linear-gradient(top,rgba(242,242,242,0), rgba(242,242,242,1));
+  background:-o-linear-gradient(bottom,rgba(242,242,242,0),rgba(242,242,242,1));/*oper*/
+  background:-moz-linear-gradient(bottom,rgba(242,242,242,0),rgba(242,242,242,1));
+  background:linear-gradient(to bottom,rgba(242,242,242,0),rgba(242,242,242,1));
+  border:1px solid #a9a9a9;
 }
